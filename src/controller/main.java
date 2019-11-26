@@ -11,11 +11,11 @@ package controller;
  */
 public class main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Log_Creator lc = new Log_Creator();
+        lc.addAction("Vegeta vino a pelear");
+        lc.addAction("Salió una zanahoria del vívero");
+        lc.saveDay("27/11/19", "src\\Binnacle\\prueba1.txt", true);
     }
     
 }
