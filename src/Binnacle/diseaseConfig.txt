@@ -1,0 +1,8 @@
+Diarrea
+caminar_2,bannio_2
+comida_120
+ejercitar,supositorio
+Depresion
+hambre_4,dormir_3
+alegria_40,hambre_20
+ejercitarse_meditacion,antiDepresivo_paroxetina,pelear,visita
