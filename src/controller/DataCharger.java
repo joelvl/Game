@@ -17,6 +17,8 @@ public class DataCharger {
         return charger;
     }
     
+    //recibe el string a guardar, la dirección donde se va a guardar
+    //y el boolean(true = agrega los datos al archivo / false = reescribe el archivo)
     public void saveFile(String text, String path, Boolean modify){
         try {
             File file = new File(path);
