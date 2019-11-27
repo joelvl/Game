@@ -5,17 +5,26 @@
  */
 package controller;
 
+import dll.ConcretCharacter;
+import java.util.Map;
+
+
 /**
  *
  * @author Administrator
  */
-public class main {
+public class main{
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    
+    private static ConcretCharacter character;
+            
+    public static void main(String[] args) throws InterruptedException {
+        
+        
+        
     }
     
 }
