@@ -17,10 +17,6 @@ public class main {
         DiseaseController dc1 = new DiseaseController();
         dc1.chargeDeseases();
         
-        ArrayList<Integer> list =chargeTime("src\\Binnacle\\timeConfig.txt");
-        for(int item:list ){
-            System.out.println(""+item);
-        }
     }
     
     
