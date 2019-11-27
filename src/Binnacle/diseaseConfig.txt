@@ -5,4 +5,4 @@ ejercitar,supositorio
 Depresion
 hambre_4,dormir_3
 alegria_40,hambre_20
-ejercitarse,antiDepresivo,pelear,visita
+ejercitarse_meditacion,antiDepresivo_paroxetina,pelear,visita

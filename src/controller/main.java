@@ -1,14 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package controller;
 
-/**
- *
- * @author Administrator
- */
+import java.util.ArrayList;
+
 public class main {
 
     public static void main(String[] args) {
@@ -23,6 +16,23 @@ public class main {
         
         DiseaseController dc1 = new DiseaseController();
         dc1.chargeDeseases();
+        
+        ArrayList<Integer> list =chargeTime("src\\Binnacle\\timeConfig.txt");
+        for(int item:list ){
+            System.out.println(""+item);
+        }
     }
     
+    
+    //carga el archivo de configuracion del tiempo
+    public static ArrayList<Integer> chargeTime(String path){
+        ArrayList<Integer>resp= new ArrayList<>();
+        DataCharger dc   = DataCharger.getInstance();
+        String data[]    = dc.loadFile(path).split("\n");
+        resp.add(Integer.parseInt(data[0]));
+        resp.add(Integer.parseInt(data[1]));
+        resp.add(Integer.parseInt(data[2]));
+        resp.add(Integer.parseInt(data[3]));
+        return resp;
+    }
 }
